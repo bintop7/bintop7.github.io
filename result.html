@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<head>
+<meta charset="utf-8" />
+<meta content="bashshell命令检索工具"/>
+<title>BASH检索</title>
+<link href="css.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="js.js"></script>
+<style type="text/css">
+textarea{
+height: 300px;
+width: 590px;
+color: #000;
+font-size: 20px;
+}
+</style>
+<script type="text/javascript">
+function createDIV(){
+var div=document.createElement("div");
+div.style.height="400px";
+div.style.width="600px";
+div.style.margin="0 auto";
+div.style.borderWidth="2px";
+div.style.borderColor="#006322";
+div.style.borderStyle="solid";
+div.style.textAlign="left";
+document.body.appendChild(div); 
+	var loca_url=window.location.href;
+	loca_url=loca_url.toString();
+	loca_url= loca_url.match(/#(\S*)/)[1];//正则提取字符
+	/*应用外部匹配*/
+	Result_key=at_key_return(loca_url);
+div.innerHTML=("关于:<font color=red size=+3>"+loca_url+"</font><br/>&nbsp###<br/>"+"<textarea>"+"####$$$$"+loca_url+Result_key+"</textarea>");
+}
+</script>
+<body onLoad="createDIV()"></body>
+<div id="div-end">
+<p align="right" class="mute-result"><a href="index.html">>>返回</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="index.html">>>首页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://user.qzone.qq.com/2199623418/photo/new/NDR0.pYbgzci*lyx96UfwwAAAAAAAAA!?source=namecardhoverpicture&_t_=0.6594761559018874">>>报错</a></p><iframe id="myframe" src="linux_bash_copy.html" style="display: none;"></iframe>
+  <p align="center" id="foot-p"><tt><font size="2">20190524|aswatercoo@sina.com</font></tt><div>
+  </div>
+<br/><br/>
+  <br/><br/> 
+</div>
+</body>
+</html>

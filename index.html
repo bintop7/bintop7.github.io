@@ -1,0 +1,54 @@
+<!DOCTYPE html> 
+<head>
+<meta charset="utf-8" />
+<meta content="bashshell命令检索工具"/>
+<title>BASH检索</title>
+<link href="css.css" type="text/css" rel="stylesheet"/>
+<script>
+function run() {
+  var input_value=document.getElementById("sear_text").value;//get search value
+document.getElementById("jumpurl").setAttribute('href', 'result.html?#'+input_value);//add url
+}
+</script>
+</head>
+<body>
+<div id="backg">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="ba">$BASH</div>
+<p>&nbsp;</p>
+<div id="search-box">
+    <input type="text" name="search"  value="" maxlength="40" id="sear_text">
+    <a id="jumpurl"><button onclick="run();" id="sear_button" accesskey="a">搜索</button></a>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="float-left"> <font size="-1">
+  <div align="center">提示：您可以搜索前端常用标签类·属性·方法以及bash·git命令和用法。</div>
+      <div align="right" id="yum">
+        <div align="center"><a id="online_shel" href="create.html"><font size="+3"> 在线运行shell程序&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font></a></div>
+      </div>
+      <div align="center"><a href="https://fanyi.baidu.com/?aldtype=16047#zh/en"><font size="+2"> <strong>百度翻译&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong></a></div>
+      <div align="center"><a href="linux-bash.html"><font size="+1"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux命令大全</a></u></div>
+      <div align="center"><a href="linux-githuib.html"><font size="0"> git命令大全&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>  </u>
+      </div>
+    <div>
+      <div align="center"><a href="https://user.qzone.qq.com/2199623418/photo/new/NDR0.pYbgzci*lyx96UfwwAAAAAAAAA!?source=namecardhoverpicture&_t_=0.6594761559018874"><font size="-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;报错</font></a><u></u>
+      </div>
+    </div>
+</div>
+<div></div>
+<br />
+<p>&nbsp;</p>
+<div id="temp"></div>
+</div>
+<div id="div-end">
+  <hr align="center" />
+  <p align="center" id="foot-p"><tt><font size="2">20190524|aswatercoo@sina.com</font></tt><div>
+  <p id="foot-p"><tt><font size="2">Linux-bash|github-linux|提供内容检索服务</font></tt></p>
+  <p id="foot-p"><tt><font size="2">&copy;20190524以上内容仅供个人使用</font></tt></p></div></div>
+</body>
+</html>

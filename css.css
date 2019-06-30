@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+.mute-result{
+	margin-right: 200px;
+}
+#backg{
+height:800px;
+width:950px;
+background:#fff;
+margin:0 auto;
+}
+#ba{
+	background:#fff;
+	height:86px;
+	width:314px;
+	margin:0 auto;
+	text-align:center;
+	text-shadow:#000;
+	font-size:90px;
+	color:#165;
+	font-weight:600;
+}
+
+	input{
+	width:400px;
+	height:50px;
+	border:3px solid #000;
+	border-right:none;
+	border-radius:4px;
+	float:left;
+	font-size:18px;}
+    button{
+		position:relative;
+		right:5px;
+		width:100px;
+		height:55px;
+		font-size:18px;
+		color:#FFF;
+		background: #000;
+		border:0;
+		border-radius:4px;
+	      }
+	 a:link {
+	text-decoration:none;
+	color: #000;
+    }
+    a:visited {
+    text-decoration:none;
+    }
+    a:hover {
+		color:#f99;
+	text-decoration:none;
+    }
+    a:active {
+	text-decoration:none;
+	color:#099;
+    }
+     #search-box{
+	 float:right;
+	 height:100px;
+	 width:700px;
+	 }	
+	  #float-left{
+	 font-size:17px;
+	 height:150px;
+	 width:950px;
+	 float:left;
+
+
+	 }	 
+	  #div-end{
+	 height:100px;
+	 width:950px;
+	 margin:0 auto;
+	 text-align:center;
+	 margin:50px auto auto auto;
+	 }
+	 #Create_new{
+		 height:200px;
+		 width:500px;
+		 float:left;
+		 margin-left:230px;
+	 border-style:double;
+	 border-color:#099;
+	 }
+	#inputdiv{
+		width: 950px;
+		height: 1000px;
+		border: 2px #ff0000;
+		border-style:double;
+		margin: 0 auto;
+	}
+	.text_res{
+height: 300px;
+width:600px;
+	}
+	textarea{
+		height: 750px;
+		width: 950px;
+		border-style: none;
+		color: #007755;
+	}
+	#run{
+		float: right;
+	}
+	#result_div{
+height: 700px;
+width: 950px;
+border: #009962 solid 2px;
+margin: 0 auto;
+padding-top: 100px;
+	}
